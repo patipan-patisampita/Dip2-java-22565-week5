@@ -6,6 +6,10 @@ public class Main {
         Dog Dog2Object = new Dog();
         Dog Dog3Object = new Dog();
 
+        Lamp led = new Lamp();
+
+        led.turnOn();
+
         Dog1Object.testDog();
         Dog2Object.testDog2();
         Dog3Object.testDog3();
